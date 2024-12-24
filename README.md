@@ -1,81 +1,85 @@
-# Autenticação com Google OAuth - Projeto de Véspera de Natal
+# Google OAuth Authentication - Christmas Eve Project
 
-Este é um projeto simples desenvolvido para implementar autenticação de usuários usando o Google OAuth. Foi criado durante o tempo livre na véspera de Natal, como forma de praticar conceitos de integração com APIs externas e estilização responsiva com SASS.
+![googleapis](https://github.com/user-attachments/assets/7e873ba2-b80b-4415-b6d5-4d036797e540)
 
-## Funcionalidades
+_Read this in other languages:_ 🇧🇷 [_Português_](./src/translations/README-ptBR.md) 🟢🟡
 
-- Login com conta do Google.
-- Exibição de informações do usuário (nome, e-mail e foto de perfil).
-- Logout com remoção das informações do usuário armazenadas no navegador.
-- Estilização clean e centralizada usando SASS.
+This is a simple project developed to implement user authentication using Google OAuth. It was created during free time on Christmas Eve as a way to practice concepts of integrating external APIs and responsive styling with SASS.
 
-## Tecnologias Utilizadas
+## Features
 
-- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
-- **Google OAuth**: Autenticação segura com a biblioteca `@react-oauth/google`.
-- **SASS**: Estilização com CSS dinâmico e componentes reutilizáveis.
+- Login with a Google account.
+- Display of user information (name, email, and profile picture).
+- Logout with removal of stored user information from the browser.
+- Clean and centralized styling using SASS.
 
-## Como Executar o Projeto
+## Technologies Used
 
-1. Clone o repositório:
+- **React**: JavaScript library for building user interfaces.
+- **Google OAuth**: Secure authentication with the `@react-oauth/google` library.
+- **SASS**: Dynamic CSS styling with reusable components.
+
+## How to Run the Project
+
+1. Clone the repository:
    ```bash
-   git clone <url-do-repositorio>
+   git clone <repository-url>
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
    ```bash
-   cd <diretorio-do-projeto>
+   cd <project-directory>
    ```
 
-3. Instale as dependências:
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-4. Inicie o servidor de desenvolvimento:
+4. Start the development server:
    ```bash
    npm run dev
    ```
 
-5. Abra o navegador e acesse:
+5. Open your browser and go to:
    ```
    http://localhost:5173
    ```
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 /
 ├── src/
-│   ├── App.tsx           # Componente principal
-│   ├── main.tsx          # Ponto de entrada da aplicação
-│   ├── index.scss        # Estilos principais
-│   └── assets/           # Imagens e outros recursos
-├── package.json          # Configurações do projeto e dependências
-└── README.md             # Documentação do projeto
+│   ├── App.tsx           # Main component
+│   ├── main.tsx          # Application entry point
+│   ├── index.scss        # Main styles
+│   └── assets/           # Images and other resources
+├── package.json          # Project configuration and dependencies
+└── README.md             # Project documentation
 ```
 
-## Demonstração
+## Demonstration
 
-Na página inicial, o usuário pode:
+On the homepage, the user can:
 
-1. Fazer login clicando no botão "Continuar com o Google".
-2. Visualizar as informações retornadas pela API do Google (nome, e-mail e foto de perfil).
-3. Fazer logout, removendo os dados do navegador e retornando à tela inicial.
+1. Log in by clicking the "Continue with Google" button.
+2. View the information returned by the Google API (name, email, and profile picture).
+3. Log out, removing data from the browser and returning to the homepage.
 
-## Aprendizados
+## Learnings
 
-- Implementação de autenticação usando Google OAuth.
-- Manipulação de estados no React para armazenar dados do usuário.
-- Uso de `localStorage` para persistência temporária de informações.
-- Estilização responsiva e acessível com SASS.
+- Implementation of authentication using Google OAuth.
+- Managing states in React to store user data.
+- Using `localStorage` for temporary data persistence.
+- Responsive and accessible styling with SASS.
 
-## Reflexão
+## Reflection
 
-Este projeto foi uma ótima oportunidade para explorar o Google OAuth e aprimorar habilidades em React e SASS. Além disso, criar algo na véspera de Natal trouxe um toque especial ao aprendizado, tornando o momento ainda mais significativo.
+This project was a great opportunity to explore Google OAuth and improve skills in React and SASS. Additionally, creating something on Christmas Eve added a special touch to the learning experience, making the moment even more meaningful.
 
-## Licença
+## License
 
-Este projeto é de uso livre. Fique à vontade para utilizá-lo como base para seus estudos ou projetos.
+This project is free to use. Feel free to use it as a base for your studies or projects.
 
 ---
